@@ -8,11 +8,11 @@ class CreateHoldings < ActiveRecord::Migration[5.0]
       t.string :querydate
       t.decimal :sharesheld, precision: 20, scale: 2
       t.decimal :sharesheldchange, precision: 20, scale: 2
-      t.decimal :sharesheldpercentchange, precision: 20, scale: 18
+      t.decimal :sharesheldpercentchange, precision: 22, scale: 18
       t.decimal :marketvalue, precision: 20, scale: 2
-      t.decimal :marketvaluechange, precision: 20, scale: 2
-      t.decimal :portfoliopercent, precision: 20, scale: 18
-      t.decimal :sharesoutpercent, precision: 20, scale: 18
+      t.decimal :marketvaluechange, precision: 22, scale: 2
+      t.decimal :portfoliopercent, precision: 22, scale: 18
+      t.decimal :sharesoutpercent, precision: 22, scale: 18
       t.string :querydate
       t.string :ticker
       t.string :companyname
