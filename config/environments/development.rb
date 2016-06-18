@@ -36,6 +36,7 @@ Rails.application.configure do
 
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
+  config.serve_static_assets = true
 
 
   # Raises error for missing translations
