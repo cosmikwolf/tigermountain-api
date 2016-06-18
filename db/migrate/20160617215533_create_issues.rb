@@ -5,8 +5,8 @@ class CreateIssues < ActiveRecord::Migration[5.0]
       t.integer :issueid
       t.string :companyname
       t.string :sicdescription
-      t.decimal :price, precision: 9, scale: 2
-      t.decimal :sharesout, precision: 12, scale: 2
+      t.decimal :price, precision: 15, scale: 2
+      t.decimal :sharesout, precision: 15, scale: 2
       t.decimal :sharesheld, precision: 15, scale: 2
       t.integer :numholders
       t.integer :industryid
