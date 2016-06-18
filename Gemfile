@@ -8,7 +8,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -40,6 +39,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "active_model_serializers", github: "rails-api/active_model_serializers", tag: "v0.10.0.rc5"
 
-gem 'rails_12factor', group: :production
-
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 ruby '2.3.0'
