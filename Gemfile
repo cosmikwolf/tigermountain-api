@@ -44,3 +44,6 @@ group :production do
   gem 'rails_12factor'
 end
 ruby '2.3.0'
+
+gem 'dalli'
+gem 'memcachier'

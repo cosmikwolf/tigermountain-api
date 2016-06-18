@@ -3,7 +3,7 @@ class IssuesController < ApplicationController
 
   # GET /issues
   def index
-    @issues = Issue.all
+    @issues = Issue.all_cached
 
     render json: @issues
   end
