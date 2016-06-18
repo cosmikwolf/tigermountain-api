@@ -1,0 +1,77 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  companyid: 1
+  companyname: MyString
+  sicdescription: MyString
+  price: 9.99
+  sharesout: 9.99
+  sharesheld: 9.99
+  numholders: 1
+  industryid: 1
+  industry: MyString
+  sectorid: 1
+  sector: MyString
+  type: 
+  querydate: MyString
+  issuetitle: MyString
+  isprimary: false
+  activeonly: false
+  ticker: MyString
+  exchangeid: 1
+  exchange: MyString
+  cik: 1
+  sic: 1
+  street1: MyString
+  street2: MyString
+  city: MyString
+  state: MyString
+  zip: 1
+  country: MyString
+  phonecountrycode: 1
+  phoneareacode: 1
+  phonenumber: 1
+  sharesoutdate: 
+  pricedate: MyString
+  numbernewholders: 1
+  numbuyers: 1
+  numsellers: 1
+  numbersellouts: 1
+
+two:
+  companyid: 1
+  companyname: MyString
+  sicdescription: MyString
+  price: 9.99
+  sharesout: 9.99
+  sharesheld: 9.99
+  numholders: 1
+  industryid: 1
+  industry: MyString
+  sectorid: 1
+  sector: MyString
+  type: 
+  querydate: MyString
+  issuetitle: MyString
+  isprimary: false
+  activeonly: false
+  ticker: MyString
+  exchangeid: 1
+  exchange: MyString
+  cik: 1
+  sic: 1
+  street1: MyString
+  street2: MyString
+  city: MyString
+  state: MyString
+  zip: 1
+  country: MyString
+  phonecountrycode: 1
+  phoneareacode: 1
+  phonenumber: 1
+  sharesoutdate: 
+  pricedate: MyString
+  numbernewholders: 1
+  numbuyers: 1
+  numsellers: 1
+  numbersellouts: 1

@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  filerid: 1
+  ownername: MyString
+  issuesheld: 1
+  portfoliovalue: 9.99
+  cik: 1
+  street1: MyString
+  street2: MyString
+  street3: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  phone: MyString
+  dcn: MyString
+  newpositions: 1
+  increasedpositions: 1
+  decreasedpositions: 1
+  soldoutpositions: 1
+
+two:
+  filerid: 1
+  ownername: MyString
+  issuesheld: 1
+  portfoliovalue: 9.99
+  cik: 1
+  street1: MyString
+  street2: MyString
+  street3: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  phone: MyString
+  dcn: MyString
+  newpositions: 1
+  increasedpositions: 1
+  decreasedpositions: 1
+  soldoutpositions: 1

@@ -1,0 +1,57 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  issue: one
+  owner: one
+  issueid: 1
+  ownername: MyString
+  sharesheld: 9.99
+  sharesheldchange: 9.99
+  sharesheldpercentchange: 9.99
+  marketvalue: 9.99
+  marketvaluechange: 9.99
+  portfoliopercent: 9.99
+  sharesoutpercent: 9.99
+  querydate: MyString
+  ticker: MyString
+  companyname: MyString
+  issuetitle: MyString
+  filerid: 1
+  cik: 1
+  currentreportdate: MyString
+  priorreportdate: MyString
+  street1: MyString
+  street2: MyString
+  street3: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  phone: MyString
+
+two:
+  issue: two
+  owner: two
+  issueid: 1
+  ownername: MyString
+  sharesheld: 9.99
+  sharesheldchange: 9.99
+  sharesheldpercentchange: 9.99
+  marketvalue: 9.99
+  marketvaluechange: 9.99
+  portfoliopercent: 9.99
+  sharesoutpercent: 9.99
+  querydate: MyString
+  ticker: MyString
+  companyname: MyString
+  issuetitle: MyString
+  filerid: 1
+  cik: 1
+  currentreportdate: MyString
+  priorreportdate: MyString
+  street1: MyString
+  street2: MyString
+  street3: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+  phone: MyString

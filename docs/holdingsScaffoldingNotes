@@ -1,0 +1,36 @@
+HOLDING SCAFFOLD NOTES
+
+rails g scaffold holding 
+issue:references 
+owner:references 
+issueid:integer 
+ownername:string 
+'sharesheld:decimal{20,2}' 
+'sharesheldchange:decimal{20,2}' 
+'sharesheldpercentchange:decimal{20,18}' 
+'marketvalue:decimal{20,2}' 
+'marketvaluechange:decimal{20,2}' 
+'portfoliopercent:decimal{20,18}' 
+'sharesoutpercent:decimal{20,18}' 
+querydate:string 
+ticker:string 
+companyname:string 
+issuetitle:string 
+filerid:integer 
+cik:integer 
+currentreportdate:string 
+priorreportdate:string 
+street1:string 
+street2:string 
+street3:string 
+city:string 
+state:string 
+zip:string 
+phone:string 
+
+
+
+
+
+issues have holdings
+owners have holdings
