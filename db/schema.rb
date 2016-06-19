@@ -21,11 +21,11 @@ ActiveRecord::Schema.define(version: 20160617215652) do
     t.string   "querydate"
     t.decimal  "sharesheld",              precision: 20, scale: 2
     t.decimal  "sharesheldchange",        precision: 20, scale: 2
-    t.decimal  "sharesheldpercentchange", precision: 20, scale: 18
+    t.decimal  "sharesheldpercentchange", precision: 22, scale: 18
     t.decimal  "marketvalue",             precision: 20, scale: 2
-    t.decimal  "marketvaluechange",       precision: 20, scale: 2
-    t.decimal  "portfoliopercent",        precision: 20, scale: 18
-    t.decimal  "sharesoutpercent",        precision: 20, scale: 18
+    t.decimal  "marketvaluechange",       precision: 22, scale: 2
+    t.decimal  "portfoliopercent",        precision: 22, scale: 18
+    t.decimal  "sharesoutpercent",        precision: 22, scale: 18
     t.string   "ticker"
     t.string   "companyname"
     t.string   "issuetitle"
@@ -51,8 +51,8 @@ ActiveRecord::Schema.define(version: 20160617215652) do
     t.integer  "issueid"
     t.string   "companyname"
     t.string   "sicdescription"
-    t.decimal  "price",            precision: 9,  scale: 2
-    t.decimal  "sharesout",        precision: 12, scale: 2
+    t.decimal  "price",            precision: 15, scale: 2
+    t.decimal  "sharesout",        precision: 15, scale: 2
     t.decimal  "sharesheld",       precision: 15, scale: 2
     t.integer  "numholders"
     t.integer  "industryid"
