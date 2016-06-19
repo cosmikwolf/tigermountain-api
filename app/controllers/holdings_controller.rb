@@ -3,7 +3,7 @@ class HoldingsController < ApplicationController
 
   # GET /holdings
   def index
-    @holdings = Holding.all
+    @holdings = Holding.all_cached
 
     render json: @holdings
   end

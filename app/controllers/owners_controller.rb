@@ -3,7 +3,7 @@ class OwnersController < ApplicationController
 
   # GET /owners
   def index
-    @owners = Owner.all
+    @owners = Owner.all_cached
 
     render json: @owners
   end
