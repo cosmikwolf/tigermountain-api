@@ -6,6 +6,7 @@ class HoldingsController < ApplicationController
     @holdings = Holding.all_cached
 
     render json: @holdings
+
   end
 
   # GET /holdings/1
